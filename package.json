@@ -1,0 +1,27 @@
+{
+  "name": "simple-test-server",
+  "version": "1.0.0",
+  "description": "just a http server to play around with",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Mellbourn/simple-test-server.git"
+  },
+  "keywords": [
+    "express",
+    "test"
+  ],
+  "author": "Klas Mellbourn <klas@mellbourn.net>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mellbourn/simple-test-server/issues"
+  },
+  "homepage": "https://github.com/Mellbourn/simple-test-server#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
