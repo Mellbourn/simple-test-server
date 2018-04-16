@@ -1,7 +1,7 @@
 const express = require("express");
 const app = express();
 
-app.get("/", (req, res) => {
+app.get("/*", (req, res) => {
   res.status(202);
   res.send("responded with 202!");
 });
